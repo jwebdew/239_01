@@ -1,0 +1,298 @@
+@charset "utf-8";
+ 
+@font-face {
+    font-family: 'S-Core Dream';
+    src: url('font/에스코어드림/S-CoreDream-4Regular.eot');
+    src: url('font/에스코어드림/S-CoreDream-4Regular.eot?#iefix') format('embedded-opentype'),
+        url('font/에스코어드림/S-CoreDream-4Regular.woff2') format('woff2'),
+        url('font/에스코어드림/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'S-Core Dream';
+    src: url('font/에스코어드림/S-CoreDream-6Bold.eot');
+    src: url('font/에스코어드림/S-CoreDream-6Bold.eot?#iefix') format('embedded-opentype'),
+        url('font/에스코어드림/S-CoreDream-6Bold.woff2') format('woff2'),
+        url('font/에스코어드림/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+ 
+
+@font-face {
+    font-family: 'S-Core Dream';
+    src: url('font/에스코어드림/S-CoreDream-7ExtraBold.eot');
+    src: url('font/에스코어드림/S-CoreDream-7ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('font/에스코어드림/S-CoreDream-7ExtraBold.woff2') format('woff2'),
+        url('font/에스코어드림/S-CoreDream-7ExtraBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'S-Core Dream';
+    src: url('font/에스코어드림/S-CoreDream-8Heavy.eot');
+    src: url('font/에스코어드림/S-CoreDream-8Heavy.eot?#iefix') format('embedded-opentype'),
+        url('font/에스코어드림/S-CoreDream-8Heavy.woff2') format('woff2'),
+        url('font/에스코어드림/S-CoreDream-8Heavy.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    color: #333;
+    font-family: 'S-Core Dream';
+    font-weight: 400;
+    line-height: 1;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+.header .inner {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.header .inner .gnb ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+.header .inner .util li {
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+.header .inner .util li:first-child {
+    margin-right: 0;
+}
+
+.main_visual {
+    height: 960px;
+    position: relative;
+}
+.main_visual figure {
+    height: 100%;
+}
+.main_visual figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main_visual div {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    text-align: center;
+    color: #fff;
+}
+.main_visual div span {
+    width: 270px;
+    height: 55px;
+    display: inline-block;
+    background-color: #a06346;
+    border-radius: 30px;
+    line-height: 55px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.main_visual div h2 {
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.main_visual div h2 strong {
+    font-weight: 700;
+}
+
+/* best --------------------------------------- */
+.best {
+    background: url('../img/best_bg.jpg') center center / cover no-repeat;
+    padding: 200px 0;
+}
+.best .inner {
+    width: 1280px;
+    margin: 0 auto;
+}
+.best .inner .title {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.best .inner .title h3 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.best .inner .title h3 strong {
+    font-weight: 600;
+}
+.best .inner .title p {
+    font-size: 18px;
+}
+.best .inner .list {
+    display: flex;
+    justify-content: space-between;
+}
+.best .inner .list .item {
+    width: 411px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px 20px;
+}
+.best .inner .list .item a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.best .inner .list .item a figure {
+    width: 171px;
+}
+.best .inner .list .item a div {
+    width: 173px;
+}
+.best .inner .list .item a div span {
+    width: 70px;
+    height: 25px;
+    border-radius: 40px;
+    display: inline-block;
+    font-size: 14px;
+    background-color: #0067a9;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.best .inner .list .item a div h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.best .inner .list .item a div p {
+    line-height: 1.3;
+}
+
+
+/* recommend --------------------------------------- */
+
+.recommend .inner {
+    width: 1280px;
+    margin: 200px auto;
+}
+.recommend .inner h3 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.recommend .inner h3 strong {
+    font-weight: 600;
+    
+}
+.recommend .inner .list {
+    display: flex;
+    justify-content: space-between;
+
+}
+.recommend .inner .list .item {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.recommend .inner .list .item figure {
+    width: 100%;
+    height: 350px;
+}
+.recommend .inner .list .item div {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: #fff;
+}
+.recommend .inner .list .item div span {
+    font-size: 14px;
+     
+}
+.recommend .inner .list .item div h4 {
+    font-size: 20px;
+    margin: 10px 0 30px;
+    font-weight: 600;
+}
+.recommend .inner .list .item div strong {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+}
+.footer .footer_menu {
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid #fff; 
+}
+.footer .footer_menu ul {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+}
+.footer .footer_menu ul li {
+    margin-right: 20px;
+}
+.footer > .inner {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 50px 0;
+} 
+.footer > .inner ul {
+     
+}
+.footer > .inner ul li  {
+    display: inline-block;
+    margin-right: 30px;
+}
+.footer > .inner address {
+    font-style: normal;
+    font-weight: 600;
+    margin: 15px 0 50px;
+}
+.footer > .inner address li {
+    margin-right: 30px;
+}
